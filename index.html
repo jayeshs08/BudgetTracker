@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>TrackYourCash</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Orbitron:wght@600&family=Press+Start+2P&family=Nosifer&family=Luckiest+Guy&family=Amatic+SC&family=Koulen&family=Inter:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h2 class="header">TRACK YOUR CASH!</h2>
+
+        <div class="container">
+
+        <div class="current",id="current">
+        </div><h3>CURRENT BALANCE</h3>
+        <h2 id="currentbal">0.00 INR</h2>
+        </div>
+
+        <div class="info">
+         <div class="income-expense">
+            <div>Income
+                <p id="pluscash">0.00 INR</p>
+            </div>
+            <div>Expense
+            <p id="minuscash">0.00 INR</p>
+            </div>
+         </div>
+       </div>
+
+       <div class="history">
+        <h3>
+            TRANSACTION HISTORY
+        </h3>
+        <ul class="historylist" id="list">
+           
+        </ul>
+      </div>
+
+      <div class="transactions">
+        <h3>ADD TRANSACTIONS</h3>
+        <form id="form">
+            <div class="forms">
+                <label for="description">Description</label>
+                <input type="text" id="text" placeholder="Write something about it....">
+            </div>
+            <div class="forms">
+                <label for="amount">Amount</label>
+                <input type="number" id="amt" placeholder="Enter amount...">
+            </div>
+            <button class="btn">ADD</button>
+        </form>
+
+        </div>
+      </div>
+
+      <script src="mainjava.js"></script>
+    </body>
+
+</html>
